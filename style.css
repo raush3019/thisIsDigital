@@ -986,9 +986,9 @@ body {
     .main .four .mid img{
         height: 4vmax;
     }
-
-
-
+    .main .four .mid{
+        text-align: center;
+    }
     .main .five{position: relative;
         justify-content: space-between;
     }
