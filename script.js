@@ -133,56 +133,61 @@ gsap.from(".main .two h4",{
 
 
 // third page 
-
 gsap.from(".main .three .imgOne",{
   scrollTrigger:{
     trigger:".three .imgOne",
     scroller:".main",
-    start:"top 50%",
+    start:"top 80%",
     end:"top 0%",
+    
     // markers:true
+    // scrub:2,
   },
   opacity:0,
-  y:200,
-  duration:1.3
+  x:-200,
+  duration:1
 
 })
 gsap.from(".main .three .imgTwo",{
   scrollTrigger:{
     trigger:".three .imgTwo",
     scroller:".main",
-    start:"top 120%",
-    end:"top 30%",
-    // markers:true
-  },
-  opacity:0,
-  y:200,
-  duration:1.3
-
-})
-gsap.from(".main .three .imgThree",{
-  scrollTrigger:{
-    trigger:".three .imgThree",
-    scroller:".main",
-    start:"top 70%",
+    start:"top 100%",
     end:"top 0%",
     // markers:true
+    // scrub:2,
   },
   opacity:0,
   y:200,
   duration:1
 
 })
+gsap.from(".main .three .imgThree",{
+  scrollTrigger:{
+    trigger:".three .imgThree",
+    scroller:".main",
+    start:"top 60%",
+    end:"top 0%",
+    // markers:true
+    // scrub:2,
+  },
+  opacity:0,
+  y:-200,
+  duration:1
+
+})
+
 gsap.from(".main .three .imgFour",{
   scrollTrigger:{
     trigger:".three .imgFour",
     scroller:".main",
-    start:"top 90%",
+    start:"top 100%",
     end:"top 0%",
     // markers:true
+    // scrub:2,
   },
   opacity:0,
-  y:200,
+  x:200,
   duration:1
 })
 
