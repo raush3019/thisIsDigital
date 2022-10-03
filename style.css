@@ -955,7 +955,7 @@ body {
         position: absolute;
         height: 30vh;
         left: 0;
-        top: 10%;
+        top: 4%;
     
     }
     
@@ -963,16 +963,16 @@ body {
         position: absolute;
         height: 15vh;
         left: 0;
-        top: 75%;
+        top: 68%;
     
     }
     
     .three .left .imgThree {
         position: absolute;
         left: 23%;
-        top: 10%;
-        height: 13vh;
-        width: 40vw;
+        top: 4%;
+        height: 15vh;
+        width: 50vw;
         object-fit: cover;
     
     }
@@ -980,7 +980,7 @@ body {
     .three .left .imgFour {
         position: absolute;
         left: 23%;
-        top: 45%;
+        top: 39%;
         height: 35vh;
     }
     .main .four .mid img{
