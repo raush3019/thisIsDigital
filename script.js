@@ -36,12 +36,14 @@ var chk = 0;
 document.querySelector(".main .one .navBar > i").addEventListener("click",function(){
   if(chk === 0){
     document.querySelector(".main .one .center .menu").style.transform ="translateY(0%)"
-    // document.querySelector(".main .one .resIcon").style.display = "none";
+    document.querySelector(".main").style.position = "fixed";
+
     chk =1;
   }
   else{
     document.querySelector(".main .one .center .menu").style.transform ="translateY(-120%)"
-    // document.querySelector(".main .one .crossIcon").style.display = "initial";
+    document.querySelector(".main").style.position = "relative";
+
     chk = 0;
   }
   
