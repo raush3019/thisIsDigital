@@ -1,0 +1,1046 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+.main {
+    min-height: 100vh;
+    width: 100vw;
+    font-family: cooper, ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.main button{
+    color: rgb(0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    padding: .6vmax 1.5vmax;
+    border-radius: 3vmax;
+    /* margin: 0 2vmax; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 200;
+    font-size: 1.2vmax;
+    font-weight: 100;
+    background-color: transparent;
+    border: 1px solid rgb(114, 114, 114);
+
+}
+
+
+
+
+/* first pagge  */
+
+.one {
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+.one .navBar {
+
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vmax;
+    font-size: 1vmax;
+}
+.one .menu{
+    /* display: none; */
+    position: absolute;
+    height: 100%;
+    z-index: 1000;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    transform: translateY(-120%);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+
+}
+
+.one .menu h1{
+    font-weight: 100;
+    font-size: 3vmax;
+    margin: 3vmax 0;
+}
+.one .menu button{
+    font-weight: 100;
+    font-size: 2vmax;
+    font-weight: 100;
+    margin: 6vmax 0;
+    padding: 1vmax 3vmax;
+}
+.one .navBar .resIcon{
+    display: none;
+}
+.one .navBar .crossIcon{
+    font-size: 2.5vmax;
+    /* display: none; */
+}
+.main .one .navBar button i{
+    color: rgb(6, 6, 6);
+    margin-left: .8vmax;
+    font-size: 1.5vmax;
+    font-weight: 100;
+
+}
+
+.navBar>h1 {
+    position: relative;
+    font-weight: 400;
+    transition-property: all;
+    transition: ease-in-out;
+    transition-duration: .3s;
+}
+
+.navBar>h1 i {
+    position: absolute;
+    bottom: 16%;
+    right: -4%;
+    font-size: .5vmax;
+    font-weight: 400;
+    color: #90f4a6;
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .56vmax;
+
+}
+
+.navBar ul h1 {
+    display: flex;
+    margin: 0 1.8vmax;
+    font-weight: 100;
+
+}
+
+.one .center {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.one .center .text {
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+
+.one .center .text h1 {
+    font-size: 4.5vmax;
+    font-weight: 200;
+}
+
+.one .center .text span{
+    position: relative;   
+}
+.one .center .text span img{
+    height: 1.3vmax;
+    position: absolute;
+    top: 84%;
+    left: -1%;
+    
+}
+
+.one .center .text h3 {
+    justify-content: space-between;
+    display: flex;
+    font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 400;
+    font-size: 1.8vmax;
+    width: 32%;
+    margin: 3vmax auto;
+}
+.one .center .text h3 button{
+    position: relative;
+    font-weight: 400;
+    font-size: 1.8vmax;
+    color: black;
+}
+.one .center .text h3 button i{
+    color: black;
+}
+
+.one .center .text img {
+    position: absolute;
+    top: 63%;
+    left: 30%;
+    height: 1.4vmax;
+}
+
+.one img {
+    position: absolute;
+    height: 30vmax;
+}
+
+.one .imgL {
+    position: absolute;
+    height: 33vmax;
+    left: 4%;
+}
+
+.one .imgT {
+    position: absolute;
+    top: 0%;
+    right: 20%;
+    height: 16vmax;
+}
+
+.one .imgR {
+    position: absolute;
+    height: 20vmax;
+    bottom: 10%;
+    right: 6%;
+}
+
+
+
+
+
+/* second page */
+
+
+.two {
+    width: 100vw;
+    height: 60vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.two h5 {
+    font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1.2vmax;
+    font-weight: 300;
+}
+
+.two p {
+
+    margin: 2.5vmax 0;
+    font-size: 3vmax;
+    line-height: 4vmax;
+    text-align: center;
+    width: 55%;
+    font-weight: 100;
+}
+
+.two h4 {
+    font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1.5vmax;
+    font-weight: 400;
+    width: 11vmax;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.main .two button i{
+
+    color: rgb(255, 255, 255);
+}
+
+.two span {
+    position: relative;
+}
+
+.two p span img {
+    position: absolute;
+    height: 5vmax;
+    left: -6%;
+    top: -30%;
+}
+
+
+
+
+/* third page  */
+
+.three {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.three .left {
+    position: relative;
+    height: 100vh;
+    width: 50vw;
+}
+
+.three .left .imgOne {
+    position: absolute;
+    height: 65vh;
+    left: 0;
+    top: 0;
+
+}
+
+.three .left .imgTwo {
+    position: absolute;
+    height: 31vh;
+    left: 0;
+    top: 70%;
+
+}
+
+.three .left .imgThree {
+    position: absolute;
+    left: 28%;
+    top: 0;
+    height: 30vh;
+    width: 28vw;
+    object-fit: cover;
+
+}
+
+.three .left .imgFour {
+    position: absolute;
+    left: 28%;
+    top: 35%;
+    height: 75vh;
+
+}
+
+
+.three .right {
+    margin-left: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 40vw;
+
+}
+
+.three .right h1 {
+
+    margin: 2.5vmax 0;
+    font-size: 3.5vmax;
+    line-height: 4vmax;
+
+    font-weight: 100;
+}
+
+.three .right h1 span {
+
+    position: relative;
+}
+
+.three .right h1 span img {
+
+    position: absolute;
+    height: .9vmax;
+    top: 90%;
+    left: 0%;
+}
+
+.three .right p {
+    color: #000;
+    margin: 1vmax 0;
+    font-size: 1.2vmax;
+    line-height: 2.5vmax;
+    width: 90%;
+    font-weight: 300;
+    font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.three .right .profile {
+    margin-top: 1vmax;
+    display: flex;
+    align-items: center;
+    width: 30vmax;
+}
+
+.three .right button i{
+   margin-left: .5vmax;
+}
+
+.three .right .profile img {
+    height: 4vmax;
+    width: 4vmax;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.three .right .profile h2 {
+    font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1.3vmax;
+    font-weight: 400;
+    margin: 0 2vmax;
+}
+
+
+/* four page   */
+
+
+.four {
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vmax 0;
+}
+
+.four h1 {
+    margin-top: 4vmax;
+    font-size: 2.8vmax;
+    line-height: 4vmax;
+    font-weight: 100;
+    width: 50%;
+    text-align: center;
+}
+
+.four h4 {
+    font-size: 1.1vmax;
+    font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    /* background-color: rgba(197, 249, 197, 0.592); */
+    font-weight: 500;
+    padding: 1vmax;
+    color: rgb(69, 69, 69);
+}
+
+.four span {
+    position: relative;
+}
+
+.four span img {
+    position: absolute;
+    width: 8.2vmax;
+    left: -10%;
+    top: -6%;
+}
+
+.four .mid {
+    margin: 3vmax 0;
+    height: 80%;
+    width: 80%;
+    white-space: wrap;
+}
+
+.four .mid img {
+    margin: 2vmax 2vmax;
+    height: 3.4vmax;
+}
+
+
+/* five page  */
+
+.five {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.five .top {
+    display: flex;
+    height: 50%;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.five .top .left {
+    height: 100%;
+    width: 48%;
+    background-image: url("https://images.unsplash.com/photo-1597369237991-5c95d1b6e0c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    padding: 3vmax;
+    display: flex;
+    box-shadow: 0 0 200px rgba(0, 0, 0, 1) inset;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.five .top .right {
+    height: 100%;
+    width: 48%;
+    background-image: url("https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1768&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    padding: 3vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 200px rgba(0, 0, 0, 1) inset;
+
+}
+
+.five .top img {
+    height: 3vmax;
+    width: 10vmax;
+}
+
+.five .top .data {
+
+    margin-top: 10vmax 0;
+    color: #fff;
+
+}
+
+.five .top .data h1 {
+    font-size: 2.3vmax;
+    font-weight: 200;
+    margin-bottom: 1.5vmax;
+}
+
+.five .top .data h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 17vmax;
+    font-size: 1.5vmax;
+    font-weight: 400;
+    font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.five .top .data h2 i{
+    color: #fff;
+}
+.five .top .data h2 button{
+    border:1px solid white
+}
+
+.five .bottom {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 20%;
+    width: 100%;
+    margin-top: 2.5vmax;
+}
+
+.five .bottom img {
+    height: 4vmax;
+    width: 4vmax;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.five .bottom h2 {
+    margin: 0 2vmax;
+    font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
+    font-weight: 300;
+}
+
+.five .bottom button {
+    padding: .8vmax 1vmax;
+    width: 9vmax;
+}
+
+
+
+
+
+/* six page  */
+
+.six {
+    height: 85vh;
+    width: 100vw;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+
+    font-size: 14px;
+    color: #000;
+    padding: 0;
+}
+
+.swiper {
+    width: 80%;
+    height: 80%;
+
+}
+
+.swiper-slide {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    
+}
+
+.swiper-slide img {
+    height: 5vmax;
+}
+
+.swiper-slide h2{
+    margin: 2vmax 0;
+    font-size: 3.5vmax;
+    text-align: center;
+    font-weight: 100;
+    width: 60%;
+
+}
+.swiper-slide h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vmax;
+    font-weight: 300;
+}
+.swiper-slide h4{
+    margin: .5vmax 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vmax;
+    font-weight: 300;
+    color: rgb(151, 151, 151);
+}
+
+
+
+/* seventh page  */
+
+.seventh{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+.seventh .top{
+    width: 100vw;
+    height: 20vh;
+    background-color: #fff;
+}
+.seventh .bottom .overflow{
+    top:-30%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 60vw;
+    height: 40vh;
+    background-image: url("https://images.unsplash.com/photo-1522027665652-ee10c408bd1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2875&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 200px rgba(0, 0, 0, 1) inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition-duration: .5s;
+    transition-timing-function: linear;
+    transition-timing-function: ease-in-out;
+}
+.seventh .bottom{
+    position: relative;
+    width: 80vw;
+    height: 80vh;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.seventh .overflow h1{
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    width: 90%;
+    font-size: 2vmax;
+    margin-bottom: 2vmax;
+}
+.seventh .profile {
+    color: #fff;
+    margin-top: 1vmax;
+    display: flex;
+    align-items: center;
+}
+.seventh .profile img {
+    height: 4vmax;
+    width: 4vmax;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.seventh .profile h2 {
+    font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1.5vmax;
+    font-weight: 400;
+    margin: 0 2vmax;
+}
+.seventh .profile button{
+    border:1px solid white;
+    color:#fff;
+}
+.seventh .profile button i{
+    margin-left: .5vmax;
+    color:#fff;
+}
+.seventh .mid{
+    color: #fff;
+    padding-top: 2vmax;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.seventh .mid h1{
+    margin-bottom: 2vmax;
+    width: 70%;
+    font-size: 3.5vmax;
+    font-weight: 300;
+}
+.seventh .mid .a h2{
+    margin-top: 2vmax;
+    display: flex;
+    justify-content: space-between;
+    width: 11vmax;
+}
+.seventh .mid .a button{
+    color: #fff;
+    border:1px solid white;
+}
+.seventh .mid .a button i{
+    color: #fff;
+}
+
+
+.seventh .mid h1 span{
+    position: relative;
+}
+.seventh .mid h1 span img{
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    height: 5.3vmax;
+}
+
+.seventh .mid h2{
+    margin-bottom: 2vmax;
+    font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+ 
+    font-size: 1.5vmax;
+    font-weight: 400;
+}
+
+.seventh .mid h4{
+    margin:1vmax;
+    font-family: sequel-sans-display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    color: rgb(102, 102, 102);
+    font-size: 1.2vmax;
+    font-weight: 200;
+}
+.seventh .c{
+    margin: 0 4vmax;
+}
+.seventh .e img{
+    margin: 1vmax 0;
+}
+.seventh .e{
+    margin-top: -2.5vmax;
+    margin-left:4vmax;
+    display: flex;
+    flex-direction: column;
+}
+.seventh .e img:nth-child(1){
+    height: 5vmax;
+}
+.seventh .e img:nth-child(2){
+    margin: 0 auto;
+    height: 9vmax;
+    width: 9vmax;
+    object-fit: cover;
+}
+.seventh .e img:nth-child(3){
+    height: 4vmax;
+
+}
+
+.seventh .footer{
+    height: 10vh;
+    width: 100%;
+    color: #fff;
+    border-top: 1px solid #808080;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.seventh .footer h5{
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.5vmax;
+    font-weight: 100;
+}
+.seventh .footer ul i{
+    color: #fff;
+}
+.seventh .footer h5 i{
+    font-size: .4vmax;
+    margin-bottom: .3vmax;
+    color: #90f4a6;
+}
+.seventh .footer ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+.seventh .footer ul li{
+    margin: 0 1vmax;
+    font-size: .98vmax;
+    color: #808080;
+}
+
+.main button i{
+    color: black;
+}
+
+
+/* button part  */
+.main button::before{
+    content: "";
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    left: 0%;
+    background-color: rgb(115, 219, 99);
+    transition: 0.3s all ease;
+    z-index: -1;
+    cursor: pointer;
+}
+.main button:hover::before {
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* hover part  */
+
+.one .navBar ul h1:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #90f4a6;
+}
+.one .navBar > h1:hover{
+    scale:.95;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.seventh .b h4:hover,.seventh .c h4:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #90f4a6;
+}
+
+
+
+
+/* responsive part  */
+
+
+@media (max-width:430px) {
+    .one .navBar ul{
+        display: none;
+    }
+    .one .navBar .resIcon{
+        font-size: 3vmax;
+        display: initial;
+    }
+    .one .imgT{
+        height: 0vmax;
+    }
+    .one .imgR{
+        height: 0vmax;
+    }
+    .main .one .center{
+        width: 100vw;
+        position: relative;
+        flex-direction: column;
+        /* align-items: center;  */
+        display: flex;
+        justify-content: space-between;
+    }
+    .one .imgL{
+        position: relative;
+        height: 100%;
+    }
+    .main .one .text{ 
+        position: relative;
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-top: 3vmax;
+        font-size: 1vmax;
+    }
+    .main .one .text h3{ 
+        align-items: center;
+        width: 40%;
+    }
+
+
+    .main .three{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .main .three .left{
+        width: 100%;
+
+    }
+    .main .three .right{
+        padding-left: 5vmax;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    .main .three .right p{
+        margin: 2vmax 0;
+        font-size: 1.8vmax;
+    }
+    .main .three .right .profile{
+        width: 65%;
+    }
+
+    .three .left .imgOne {
+        position: absolute;
+        height: 30vh;
+        left: 0;
+        top: 10%;
+    
+    }
+    
+    .three .left .imgTwo {
+        position: absolute;
+        height: 15vh;
+        left: 0;
+        top: 75%;
+    
+    }
+    
+    .three .left .imgThree {
+        position: absolute;
+        left: 23%;
+        top: 10%;
+        height: 13vh;
+        width: 40vw;
+        object-fit: cover;
+    
+    }
+    
+    .three .left .imgFour {
+        position: absolute;
+        left: 23%;
+        top: 45%;
+        height: 35vh;
+    }
+    .main .four .mid img{
+        height: 5vmax;
+    }
+
+
+
+    .main .five{position: relative;
+        justify-content: space-between;
+    }
+    .main .five .top{
+        position: absolute;
+        height: 90%;
+        flex-direction: column;
+    }
+    .main .five .top .left{
+        height: 85%;
+        width: 100%;
+    }
+    .main .five .top .right{
+        margin-top: 2vmax;
+        width: 100%;
+    }
+    .main .five .bottom{
+        height: 10%;
+        position: absolute;
+        bottom: 0%;
+    }
+
+    .main .seventh .overflow{
+        position: absolute;
+        width: 80vw;
+        height: 30vh;
+        top: -20%;
+    }
+    .main .seventh .mid{
+        flex-wrap: wrap;
+    }
+    .main .seventh .e{
+        margin-top: 2vmax;
+        flex-direction: row;
+        width: 80%;
+    }
+    .main .seventh .a{
+
+        margin: 2vmax 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .main .seventh .a h2{
+
+        align-items: center;
+        width: 30%;
+
+    }
+
+
+
+}
