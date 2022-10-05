@@ -29,6 +29,14 @@ ScrollTrigger.refresh();
 }
 
 show();
+//service menu
+
+document.querySelector(".serviceBtn").addEventListener("mousemove",function(){
+  document.querySelector(".servicesContent").style.opacity = "1";
+})
+document.querySelector(".servicesContent").addEventListener("mouseleave",function(){
+  document.querySelector(".servicesContent").style.opacity = "0";
+})
 
 // menu of responsive 
 
