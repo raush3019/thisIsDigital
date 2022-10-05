@@ -29,6 +29,7 @@ ScrollTrigger.refresh();
 }
 
 show();
+
 //service menu
 
 document.querySelector(".serviceBtn").addEventListener("mousemove",function(){
@@ -38,6 +39,7 @@ document.querySelector(".servicesContent").addEventListener("mouseleave",functio
   document.querySelector(".servicesContent").style.opacity = "0";
 })
 
+
 // menu of responsive 
 
 var chk = 0;
@@ -45,13 +47,13 @@ document.querySelector(".main .one .navBar > i").addEventListener("click",functi
   if(chk === 0){
     document.querySelector(".main .one .center .menu").style.transform ="translateY(0%)"
     document.querySelector(".main").style.position = "fixed";
-
+    // document.querySelector(".main .one .menu").style.position = "fixed";
     chk =1;
   }
   else{
     document.querySelector(".main .one .center .menu").style.transform ="translateY(-120%)"
     document.querySelector(".main").style.position = "relative";
-
+    // document.querySelector(".main .one .menu").style.position = "absolute";
     chk = 0;
   }
   
@@ -141,6 +143,7 @@ gsap.from(".main .two h4",{
 
 
 // third page 
+
 gsap.from(".main .three .imgOne",{
   scrollTrigger:{
     trigger:".three .imgOne",
@@ -198,6 +201,9 @@ gsap.from(".main .three .imgFour",{
   x:200,
   duration:1
 })
+
+
+
 
 gsap.from(".main .three .right .profile",{
   scrollTrigger:{
